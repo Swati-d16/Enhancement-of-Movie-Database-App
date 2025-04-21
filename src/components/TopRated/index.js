@@ -2,7 +2,7 @@ import React from 'react'
 import Loader from 'react-loader-spinner'
 
 import MovieCard from '../MovieCard'
-import NavBar from '../NavBar'
+import Navbar from '../Navbar'
 import Pagination from '../Pagination'
 
 import './index.css'
@@ -62,7 +62,7 @@ class TopRated extends React.Component {
     return (
       <>
         {' '}
-        <NavBar />
+        <Navbar />
         <div className="route-page-body">
           {isLoading
             ? this.renderLoadingView()

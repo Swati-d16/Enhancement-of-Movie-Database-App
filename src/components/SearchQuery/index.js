@@ -1,7 +1,7 @@
 import Loader from 'react-loader-spinner'
 
 import MovieCard from '../MovieCard'
-import NavBar from '../NavBar'
+import Navbar from '../Navbar'
 import Pagination from '../Pagination'
 
 import SearchMoviesContext from '../../context/SearchMoviesContext'
@@ -57,7 +57,7 @@ const SearchQuery = () => {
 
         return (
           <>
-            <NavBar />
+            <Navbar />
             <div className="route-page-body">
               {renderSearchResultViews(value)}
             </div>

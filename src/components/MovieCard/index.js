@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 
-const MovieGrid = ({movies}) => {
+const MovieCard = ({movies}) => {
   return (
     <div className="movie-grid">
       {movies.map(movie => (
@@ -19,4 +19,4 @@ const MovieGrid = ({movies}) => {
   )
 }
 
-export default MovieGrid
+export default MovieCard
